@@ -1,6 +1,7 @@
 document.getElementById("pdf").addEventListener("click",function(){
    var datos = myChart.data.datasets[0].data;   
    var resultados = [];
+   //Switch para comprobar las opciones
    for(i=0;i<datos.length;i++){
       switch(i){
          //Primera Categoria
